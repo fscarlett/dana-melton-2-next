@@ -5,8 +5,10 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>Dana Melton Photography</h1>
-        <p>A unique eye</p>
+        <div className='container'>
+          <h1>Dana Melton Photography</h1>
+          <p>behold, hella photos</p>
+        </div>
       </main>
     </div>
   )

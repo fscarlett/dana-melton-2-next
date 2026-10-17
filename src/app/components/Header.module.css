@@ -1,0 +1,17 @@
+.header {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 20px 10px; */
+  /* background-color: var(--background); */
+  /* background-color: #666; */
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}

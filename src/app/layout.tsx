@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Work_Sans, Montserrat } from 'next/font/google'
 import './globals.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 const workSans = Work_Sans({
   variable: '--font-work-sans',
@@ -13,14 +15,19 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'Dana Melton Photography',
-  description: 'A unique eye',
+  title: 'Dana Melton Photography | A unique eye',
+  description:
+    'Photographic works with a timeless structure and beautifully minimal aesthetic',
 }
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
     <html lang='en' className={`${workSans.variable} ${montserrat.variable}`}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <div>{children}</div>
+        <Footer />
+      </body>
     </html>
   )
 }
