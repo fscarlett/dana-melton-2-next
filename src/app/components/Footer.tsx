@@ -10,7 +10,7 @@ export default function Footer() {
       <div className='container'>
         <div className={styles['footer-wrapper']}>
           <div className={styles['footer-left']}>
-            <p>&copy; 2010 - {currentYear} Dana Melton</p>
+            <p>&copy; 2000 - {currentYear} Dana Melton</p>
           </div>
           <div className={styles['footer-right']}>info</div>
         </div>

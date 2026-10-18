@@ -42,6 +42,14 @@ h6 {
   color: var(--foreground);
 }
 
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -55,7 +63,7 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1350px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 5px;
 }
